@@ -1,0 +1,159 @@
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+.fact-desc h1 {
+  margin: 0;
+  padding: 0;
+}
+.fact_icon i {
+  font-size: 26px;
+}
+.find_icon i {
+  font-size: 26px;
+}
+.fact-desc h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+.finding{padding-bottom:40px;}
+.address h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+.address  span{
+  display:block
+}
+.single_team img{}
+.header ul li {
+  padding: 12px 3px 0px;
+}
+.latest-news-box {
+  padding-top: 20px;
+}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+.header-bg {
+  background: url("../img/pix2.jpg") no-repeat fixed 50% 0 rgba(0, 0, 0, 0.5);
+  min-height: 500px;
+}
+.logo {
+  float: none;
+}
+.logo h1 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align:center;
+}
+.cover h1 {
+  font-size: 42px;
+}
+.work_area h4 {
+text-align:center;
+}
+.timeline-body > p, .timeline-body > ul {
+margin-left: 0px;
+  font-size: 12px;
+}
+.single_team {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.single_service {
+margin-bottom:60px;
+}
+.single_pricing {
+margin-bottom:60px;
+}
+.cool_area h2 {
+  color: #fff;
+  line-height: 45px;
+  font-size: 28px;
+}
+.client_img img {
+  margin: 10px;
+}
+.single_fact{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  margin-bottom:25px;
+}
+.single_find{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  margin-bottom:25px;
+}
+.find_icon {
+ float:none
+}
+.address {
+ float:none
+}
+.fact_icon {
+ float:none
+}
+.fact-desc {
+ float:none;
+   margin: 0;
+}
+.contact_us input[type="text"] {
+margin-bottom:20px;
+}
+.contact_us input[type="email"] {
+margin-bottom:20px;
+}
+.footer_icons {
+  font-size: 18px;
+  margin-top: -15px;
+  text-align: center;
+  float:none;
+}
+.copyright p {
+  font-size: 15px;
+  margin-top: 12px;
+  text-align:center;
+}
+.copyright {
+float:none;
+}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+.cover h1 {
+  font-size: 42px;
+}
+.timeline-body > p, .timeline-body > ul {
+margin-left: 0px;
+  font-size: 12px;
+}
+.single_team {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.cool_area h2 {
+  color: #fff;
+  line-height: 24px;
+  font-size: 20px;
+}
+.latest-news-box {
+  padding-top: 20px;
+}
+}
